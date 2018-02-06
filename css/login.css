@@ -1,0 +1,103 @@
+table, th, td {
+    border: 0px solid black;
+    
+}
+#fff {
+  font-size: 24px;
+}
+#contact {
+  font-size: 10px;
+}
+
+.button {
+    background-color: #32DB4C;
+   /* border: 1px solid #4DAEDE;  */
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	border-radius: 4px;  
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	
+}
+.button1 {
+    background-color: #EBE9ED;
+    color: black;
+   /* border: 2px solid #D9D8DA;  */
+}
+.button1:hover {
+    background-color: #D9D8DA;
+    color: red;
+/*------login-------------*/	
+}
+input[type=text], select {
+    width: 100%;
+    padding: 9px 10px;
+    margin: 9px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color:#DBDAE1;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 100%;
+    padding: 9px 10px;
+    margin: 9px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color:#DBDAE1;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=reset] {
+    width: 49%;
+    background-color: #B40404;
+    color: white;
+    padding: 14px 20px;
+	display: inline-block;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font-size: 103%;
+}
+
+input[type=reset]:hover {
+    background-color: #DF0101;
+}
+
+input[type=submit] {
+    width: 49%;
+    background-color: #0B615E;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font-size: 103%;
+}
+
+input[type=submit]:hover {
+    background-color: #088A85;
+}
+
+div {
+    border-radius: 6px;
+    background-color: #1C1C1C;
+    padding: 20px;
+	width: 350px;
+	
+}
+input[type=text]:focus {
+    background-color: #F5F6CE;
+}
+input[type=password]:focus {
+    background-color: #F5F6CE;
+}

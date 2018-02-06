@@ -1,0 +1,139 @@
+#dddd{
+overflow:scroll;
+ width:500px;
+   height:380px;
+}
+
+#scroll { /*หน้าแชท*/
+   border: 2px solid #0489B1;
+   width:500px;
+   height:380px;
+   line-height:2.6em;
+   overflow-y: scroll;
+   padding:4px;
+   border-radius: 3px;
+   margin: 5px;
+   background-color: #EFFBFB;
+   box-shadow: 0px 0px 7px #585858;
+}
+#use{
+background-color: white;
+box-shadow: 0px 0px 5px #585858;
+font-size: 14px;
+padding:1px;
+}
+.ipfont{
+font-size: 3px;
+}
+.user { /*ผู้ใช้งานขณะนี้*/
+   border: 1px solid #0489B1;
+   box-shadow: 0px 0px 7px #585858;
+   width:240px;
+   height:380px;
+   line-height:2.6em;
+   overflow:auto;
+   padding:4px;
+   border-radius: 4px; 
+   margin: 5px;
+   background-color: #CEF6F5;
+}
+table, th, td {
+    border: 0px solid black;
+}
+.mess {
+  /*  border-left: 3px solid #00A4EA;  */
+  border-radius: 10px;
+    background-color: #BDBDBD;
+    font-size: 105%;
+    margin: 3px;
+   
+}
+h1 {
+  /*  border-left: 3px solid #00A4EA;  */
+  border-radius: 1px;
+ /* border-left: 3px solid #00FF2B;  */
+   /* background-color: #D0FFD8;  */
+    
+    margin: 2px;
+   /*  border-bottom: 1px solid #BFBFBF;  */
+}
+.small {
+	 font-size: 55%;
+}
+.header {
+   width:785px;
+   height:40px;
+   line-height:2.6em;
+   background-color: #01A9DB;
+   border-radius: 7px;
+}
+.button1 { /*logout chat */
+    background-color: #08088A; 
+    color: #FFFFFF; 
+    border: 2px solid #08088A;
+    border-radius: 4px;
+    margin:3px 5px;
+}
+
+.button1:hover {
+    background-color: #0404B4;
+    border: 2px solid #0404B4;
+    border-radius: 4px;
+    color: white;
+    margin:3px 5px;
+}
+b1 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+p {
+  /*  border-left: 3px solid #00A4EA;  */
+  border-radius: 1px;
+  border-left: 3px solid #00FF2B;
+    /*background-color: #D0FFD8;  */
+    font-size: 60%;
+    margin: 2px;
+     border-bottom: 1px solid #BFBFBF;
+}
+
+.chatbox { 
+	border-radius: 5px;
+    background-color: #58ACFA;
+    padding: 10px;
+    width:767px;
+    height:57px;
+}
+input[type=text], select {
+    width: 62%;
+    padding: 9px 10px;
+    margin: 9px 6px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #E1FFFF;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 34%;
+    background-color: #0040FF;
+    color: white;
+    padding: 7px 20px;
+    margin: 8px 2px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font-size: 103%;
+}
+
+input[type=submit]:hover {
+    background-color: #0083C4;
+}
