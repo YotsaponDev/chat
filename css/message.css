@@ -1,0 +1,17 @@
+div {
+    font-size: 70%;
+ //    border-bottom: 1px solid #BFBFBF;
+    border-radius: 10px;
+    background-color: #C8E7EB;
+    margin: 1px;
+}
+h1 {
+  /*  border-left: 3px solid #00A4EA;  */
+  border-radius: 1px;
+  border-left: 3px solid #00FF2B;
+    background-color: #BDBDBD;  
+    margin: 2px;
+     border-bottom: 1px solid #BFBFBF;
+
+}
+
